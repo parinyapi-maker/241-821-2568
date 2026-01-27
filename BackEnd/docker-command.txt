@@ -1,0 +1,39 @@
+docker run hello-world
+
+docker ps --all
+
+docker run busybox echo 'hello world'
+
+//หยุดการทำงาน
+docker stop 
+
+//คำสั่งรีมูฟ
+docker rm 
+
+//ลบ
+docker system prune
+
+//
+docker ping google
+
+//
+docker create busybox ping googlr
+
+//
+docker pull busybox
+
+//เข้าไปในเครื่องคอมพิวเตอร์
+docker exec -it id sh
+
+docker run -p80:80 nginx
+docker run -p9000:80 nginx
+docker run -d -p 9001:80 nginx
+
+docker ps //เรียกดู nginx id
+docker rm //หยุดการทำงาน
+
+//นำเข้าในเครื่อง
+docker exec -it containe_id sh
+docker exec -it containe_id bash
+docker exec containe_id ls
+

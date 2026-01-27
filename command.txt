@@ -1,0 +1,52 @@
+// โชว์หมด
+docker ps --all 
+
+// โชว์แค่เฉพาะที่ทำงาน
+docker ps 
+
+// โชว์ภาพimg (ที่ชื่อ hello world)
+docker run img hello world 
+
+// มันจะหาจากในเครื่่องก่อน แล้วค่อยเข้าไปใน docker hub จึงนำมาเสนอ
+
+// หยุด docker ที่กำลังรัน 
+docker stop contrintor id 
+contrintor id xxx 
+
+// สาธิตขั้นตอนการทำงาน แบบละเอียด
+docker pull img (newest box)
+docker crtate (newest box)
+docker contrintor id 
+contrintor id 
+docker ping google.com
+docker --all
+docker start contrintor id 
+docker --all 
+
+// ลบออกสักตัว
+docker rn contrintor id 
+
+// ลบออกหมด
+docker sytem 
+
+// รัน web server 
+docker run nginx
+docker es ec contrintor id 
+docker all contrintor id <-- // สามารถเชื่่อมอีกแบบ ได้ด้วย block 
+exit // เพื่อออก 
+cat engex // เพื่อส่องโพสเดอร์ใน engex 
+docker ping google.com 
+
+engnex enter
+index.html 
+cat // เข้ามาส่องในโพลเดอร์
+
+docker contrintor id remove 
+docker run/p80 // ตัวชี้ให้ user เข้าถึงได้
+docker run engnx 
+
+// สามารถเปลี่ยน p ได้หาก pเดิมมีคนใช้อยู่ ex80 / ex9000 
+// for guild mode รันแบบเยอะๆ ไม่แบ่ง
+// detate mode /d รันแบบสวยๆ เคลียร์ๆ 
+
+
